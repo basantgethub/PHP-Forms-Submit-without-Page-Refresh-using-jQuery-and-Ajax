@@ -18,7 +18,7 @@
 				};
 				$.ajax({
 					type:"post",
-					//dataType:"json",
+					//url: 'submit1.php',
 					url: 'submit.php',
 					data: data,
 					success :  function(data){
